@@ -1,0 +1,20 @@
+.slider__bullets {
+   position: fixed;
+   top: 35%;
+   right: 40px;
+   z-index: 1;
+   display: flex;
+   flex-direction: column;
+}
+.bullet {
+   width: 15px;
+   height: 15px;
+   cursor: pointer;
+   background-color: rgba(255, 255, 255, 0.2);
+   margin: 20px 0;
+   border-radius: 50%;
+   border: 3px solid #55b7ff;
+}
+.active {
+   background-color: #ffffff;
+}

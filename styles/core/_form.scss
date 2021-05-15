@@ -1,0 +1,83 @@
+.form__window {
+   width: 771px;
+   height: 451px;
+   background-color: #fff;
+   position: absolute;
+   top: 401px;
+   left: calc(50% - 385px);
+}
+.form__separator {
+   width: 101px;
+   border-bottom: 2px solid #2c4058;
+   padding-top: 60px;
+   margin: 0 auto;
+}
+.form__title {
+   font-size: 44px;
+   text-align: center;
+   margin-top: 40px;
+   font-family: $bold;
+   text-transform: uppercase;
+   color: #2c4058;
+}
+.form__wrapper {
+   margin: 59px 110px 0 61px;
+   height: 190px;
+   display: flex;
+   justify-content: space-between;
+   .form__text {
+      color: #2c4058;
+      font-size: 18px;
+      font-family: $book;
+      margin-bottom: 25px;
+      font-weight: bolder;
+
+      .form__icon {
+         color: #7e5aff;
+      }
+   }
+   .form-input__wrapper {
+      display: flex;
+      flex-direction: column;
+      align-content: flex-end;
+      .form__input {
+         display: block;
+         width: 311px;
+         background-color: #fff;
+         border: none;
+         border-radius: 20px 0;
+         border-bottom: 2px solid #4b5562;
+         font-family: $book;
+         font-size: 18px;
+         margin-bottom: 25px;
+         padding: 4px 15px 13px 15px;
+         &::placeholder {
+            color: #4b5562;
+         }
+         &:focus {
+            color: #2c4058;
+            border-bottom: 2px solid #2c4058;
+         }
+         &:valid {
+            background-image: url(../../images/donebutton.png),
+               linear-gradient(to right, rgba(154, 233, 151, 0.2), rgba(9, 90, 2, 0.2));
+            background-repeat: no-repeat;
+            background-position: right;
+         }
+         &:focus:valid {
+            background-image: linear-gradient(to right, rgba(154, 233, 151, 0.2), rgba(9, 90, 2, 0.2));
+         }
+         &:focus:invalid {
+            background-image: linear-gradient(to right, rgba(233, 151, 151, 0.2), rgba(90, 2, 2, 0.2));
+         }
+      }
+      .form__button-label {
+         display: block;
+         margin-left: 171px;
+         width: 141px;
+      }
+      .form__button {
+         width: 141px;
+      }
+   }
+}
