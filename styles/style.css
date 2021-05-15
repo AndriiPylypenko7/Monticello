@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,600;0,700;1,400&display=swap");
 @font-face {
   font-family: "Gotham bold";
   src: url(../../fonts/gothambold1.woff);
@@ -38,7 +39,7 @@
   border: 1px solid #2c4058;
   font-size: 14px;
   text-transform: uppercase;
-  font-family: "Gotham book";
+  font-family: "Gotham book", "Josefin Sans", sans-serif;
   font-weight: 700;
   cursor: pointer;
   outline: none;
@@ -131,7 +132,7 @@
 }
 
 .title {
-  font-family: "Gotham bold";
+  font-family: "Gotham bold", "Josefin Sans", sans-serif;
   text-transform: uppercase;
   color: #ffffff;
   font-size: 80px;
@@ -140,7 +141,7 @@
 }
 
 .subtitle {
-  font-family: "Gotham book";
+  font-family: "Gotham book", "Josefin Sans", sans-serif;
   color: #ffffff;
   text-align: center;
   text-transform: uppercase;
@@ -207,7 +208,7 @@
 
 .nav__list .nav__item a {
   color: #ffffff;
-  font-family: "Gotham book";
+  font-family: "Gotham book", "Josefin Sans", sans-serif;
   font-size: 14px;
   text-transform: uppercase;
   cursor: pointer;
@@ -225,6 +226,8 @@
 }
 
 .nav__list .nav__item a:hover {
+  -webkit-box-shadow: 0 0 10px #ffffff;
+          box-shadow: 0 0 10px #ffffff;
   text-shadow: 0 0 10px #ffffff;
 }
 
@@ -267,7 +270,7 @@
   font-size: 44px;
   text-align: center;
   margin-top: 40px;
-  font-family: "Gotham bold";
+  font-family: "Gotham bold", "Josefin Sans", sans-serif;
   text-transform: uppercase;
 }
 
@@ -330,7 +333,7 @@
 
 .projects__subtitle {
   color: #2c4058;
-  font-family: "Gotham bold";
+  font-family: "Gotham bold", "Josefin Sans", sans-serif;
   margin-top: 131px;
   font-size: 44px;
   text-transform: uppercase;
@@ -338,7 +341,7 @@
 
 .projects__subtitle .subtitle__uppertext {
   font-size: 22px;
-  font-family: "Gotham book";
+  font-family: "Gotham book", "Josefin Sans", sans-serif;
 }
 
 .projects__text {
@@ -390,7 +393,7 @@
   text-align: center;
   font-size: 44px;
   color: #ffffff;
-  font-family: "Gotham mediun";
+  font-family: "Gotham mediun", "Josefin Sans", sans-serif;
   text-transform: uppercase;
   margin-top: 40px;
 }
@@ -418,7 +421,7 @@
 
 .news-slide__wrapper .news-slide__title {
   color: #2c4058;
-  font-family: "Gotham bold";
+  font-family: "Gotham bold", "Josefin Sans", sans-serif;
   font-size: 22px;
   text-transform: uppercase;
   margin: 30px 22px;
@@ -457,7 +460,7 @@
 .news-slide__wrapper .news-slide__contact .contact__name {
   color: #2c4058;
   font-size: 18px;
-  font-family: "Gotham book";
+  font-family: "Gotham book", "Josefin Sans", sans-serif;
   font-weight: bolder;
   text-transform: uppercase;
 }
@@ -466,7 +469,7 @@
   margin-top: 14px;
   color: #55b7ff;
   font-size: 14px;
-  font-family: "Gotham book";
+  font-family: "Gotham book", "Josefin Sans", sans-serif;
   font-weight: bolder;
 }
 
@@ -533,7 +536,6 @@
 }
 
 .news__slider .swiper-pagination-bullet:focus, .news__slider .swiper-pagination-bullet:hover {
-  background-color: #55b7ff;
   border: 3px solid #ffffff;
 }
 
@@ -555,7 +557,7 @@
   text-align: center;
   margin-top: 40px;
   margin-bottom: 99px;
-  font-family: "Gotham bold";
+  font-family: "Gotham bold", "Josefin Sans", sans-serif;
   text-transform: uppercase;
 }
 
@@ -584,6 +586,13 @@
   height: 440px;
 }
 
+.gallery__wrapper .gallery__big-image:hover {
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+  border-radius: 10px;
+}
+
 .gallery__wrapper .gallery__small-image__wrapper {
   width: 592px;
   height: 453px;
@@ -599,6 +608,13 @@
   height: 215px;
   overflow: hidden;
   margin: 5px;
+}
+
+.gallery__wrapper .gallery__small-image__wrapper .gallery__small-image:hover {
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+  border-radius: 10px;
 }
 
 .gallery__wrapper .gallery__image {
@@ -657,7 +673,7 @@
 }
 
 .footer__wrapper .footer__content-wrapper .footer__text {
-  font-family: "Gotham book";
+  font-family: "Gotham book", "Josefin Sans", sans-serif;
   color: #ffffff;
   font-style: 14px;
 }
@@ -690,7 +706,7 @@
   font-size: 44px;
   text-align: center;
   margin-top: 40px;
-  font-family: "Gotham bold";
+  font-family: "Gotham bold", "Josefin Sans", sans-serif;
   text-transform: uppercase;
   color: #2c4058;
 }
@@ -709,7 +725,7 @@
 .form__wrapper .form__text {
   color: #2c4058;
   font-size: 18px;
-  font-family: "Gotham book";
+  font-family: "Gotham book", "Josefin Sans", sans-serif;
   margin-bottom: 25px;
   font-weight: bolder;
 }
@@ -737,7 +753,7 @@
   border: none;
   border-radius: 20px 0;
   border-bottom: 2px solid #4b5562;
-  font-family: "Gotham book";
+  font-family: "Gotham book", "Josefin Sans", sans-serif;
   font-size: 18px;
   margin-bottom: 25px;
   padding: 4px 15px 13px 15px;
@@ -815,7 +831,7 @@
   width: 15px;
   height: 15px;
   cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0.3);
   margin: 20px 0;
   border-radius: 50%;
   border: 3px solid #55b7ff;

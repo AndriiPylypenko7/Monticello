@@ -33,7 +33,6 @@ new Swiper(".news__slider", {
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
-    dynamicBullets: true,
   },
   autoHeight: true,
   slidesPerView: 3,

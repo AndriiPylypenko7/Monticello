@@ -32,6 +32,10 @@
       margin: 5px;
       width: 582px;
       height: 440px;
+      &:hover {
+         transform: scale(1.2);
+         border-radius: 10px;
+      }
    }
    .gallery__small-image__wrapper {
       width: 592px;
@@ -44,6 +48,10 @@
          height: 215px;
          overflow: hidden;
          margin: 5px;
+         &:hover {
+            transform: scale(1.2);
+            border-radius: 10px;
+         }
       }
    }
    .gallery__image {
