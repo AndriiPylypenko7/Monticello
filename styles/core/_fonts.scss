@@ -1,14 +1,17 @@
 @font-face {
    font-family: "Gotham bold";
    src: url(../../fonts/gothambold1.woff);
+   src: url(../../fonts/gothambold1.eot);
 }
 @font-face {
    font-family: "Gotham mediun";
    src: url(../../fonts/gotham-medium-webfont.woff);
+   src: url(../../fonts/gotham-medium-webfont.woff2);
 }
 @font-face {
    font-family: "Gotham book";
    src: url(../../fonts/GothamBook.woff);
+   src: url(../../fonts/GothamBook.eot);
 }
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,600;0,700;1,400&display=swap");
